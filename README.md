@@ -1,6 +1,10 @@
 # Squid game TV series bridge level survival possibility
  This matlab function calculates survival possibility of each player in Bridge level in Squid Game TV series 
  
+ <p float="middle">
+    <img src="Movie-scene.jpg" width="1200">
+</p>
+ 
  ## deadpossibility
  ```deadpossibility(n,t)``` function calculates possibility of dying of nth player in exactly t-th step of the bridge.
  Since this probability for nth person is depended on the performance and dead probabilities for (n-1)th person this function is a recursive function.
